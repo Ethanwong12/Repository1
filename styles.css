@@ -1,0 +1,6 @@
+body{background-color: black; }
+h1{font-size: 250%;font-family:arial;text-align: center;color: white;}
+p {color: gray;font-family: arial; size: 20px;} 
+a {text-decoration: none; color: lightgreen;}
+nav{background-color: aqua; text-align: center;
+    font-size: large;}
