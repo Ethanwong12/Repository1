@@ -1,6 +1,16 @@
-body{background-color: black; }
 h1{font-size: 250%;font-family:arial;text-align: center;color: white;}
 p {color: gray;font-family: arial; size: 20px;} 
 a {text-decoration: none; color: lightgreen;}
 nav{background-color: aqua; text-align: center;
     font-size: large;}
+.black{background-color: black;}
+.green{background-color: green;}
+.blue{background-color: blue;}
+.yellow{background-color: yellow;}
+.red{background-color: red;}
+.orange{background-color: orange;}
+.cyan{background-color: cyan;}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
