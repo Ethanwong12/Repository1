@@ -21,3 +21,6 @@ td, th {
     padding: 5px 10px;
 
 }
+th:hover {
+    background-color: darkgray;
+}
