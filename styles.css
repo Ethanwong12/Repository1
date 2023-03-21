@@ -14,6 +14,9 @@ nav{background-color: aqua; text-align: center;
     background-color: blue;
     color: white;    
 }
+.nofloat {
+    float: none;
+}
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -41,10 +44,12 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: black;
+    position: sticky;
+    top: 0;
 }
 li a:hover {
-    background-color: black;
-    color: white;
+    background-color: gray;
+    color: black;
 }
 li a:active {
     background-color:blue;
