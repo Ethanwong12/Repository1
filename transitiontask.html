@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        div {
+            height: 150px;
+            width: 200px;
+            background-color: blue;
+            transition: width 4s, height 5s, background-color 3s;
+        }
+        #firstDiv:hover {
+            width: 400px;
+            height: 300px;
+            transition: width 4s,height 5s;
+        }
+        #secondDiv:hover {
+            background-color: aqua;
+            transition: 5s;
+        }
+        #thirdDiv, #fourthDiv{
+            transition: 6s;
+        }
+        #thirdDiv:hover, #fourthDiv:hover {
+            transform: translate(300px, 200px);
+            transition: 6s;
+        }
+        #fourthDiv:hover {
+            width: 400px;
+            height: 300px;
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="firstDiv">size</div>
+    <br>
+    <div id="secondDiv">background color</div>
+    <br>
+    <div id="thirdDiv">Translate</div>
+    <br>
+    <div id="fourthDiv">size, background color and tranlate</div>
+    <br>
+    <div></div>
+</body>
+</html>
