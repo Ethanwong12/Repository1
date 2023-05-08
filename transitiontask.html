@@ -34,6 +34,18 @@
             height: 300px;
             background-color: aqua;
         }
+        #animatedDiv {
+            animation-name: animation1;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animation1 {
+            0%   {left: 0px; top: 0px; background-color: blue;} 
+            25%  {Left:0px; Top:200px; Background-color: Red;}
+            50%  {Left:200px; Top:200px; Background-color: Yellow;}
+            75%  {Left:200px; Top:0px; Background-color: Green;}
+            100% {Left:0px; Top:0px; Background-color: blue;}
+        }
 
     </style>
 </head>
@@ -46,6 +58,6 @@
     <br>
     <div id="fourthDiv">size, background color and tranlate</div>
     <br>
-    <div></div>
+    <div id="animatedDiv">Animated Div</div>
 </body>
 </html>
