@@ -1,0 +1,13 @@
+#IngredientsDiv {
+    width: 400px;
+    float: left;
+}
+
+#MethodDiv {
+    width: 500px;
+    float:right;
+}
+img {
+    transform: translate(0px, 400px);
+    float: left;
+}
