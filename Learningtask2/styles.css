@@ -7,7 +7,28 @@
     width: 500px;
     float:right;
 }
-img {
-    transform: translate(0px, 400px);
+#image1 {
     float: left;
+}
+li a {
+    display:block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+li a:hover {
+    background-color: gray;
+    color: black;
 }
